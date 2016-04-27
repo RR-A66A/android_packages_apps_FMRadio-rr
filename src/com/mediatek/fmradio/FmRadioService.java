@@ -1732,7 +1732,7 @@ public class FmRadioService extends Service implements FmRecorder.OnRecorderStat
         }
 
         try {
-            mFmPlayer.prepare();
+            mFmPlayer.prepareWithoutScan();
             mFmPlayer.start();
         } catch (IOException e) {
             Log.e(TAG, "Exception: Cannot call MediaPlayer prepare.", e);
