@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright Statement:
-
   This software/firmware and related documentation ("MediaTek Software") are
   protected under relevant copyright laws. The information contained herein is
   confidential and proprietary to MediaTek Inc. and/or its licensors. Without
@@ -9,9 +8,7 @@
   reproduction, modification, use or disclosure of MediaTek Software, and
   information contained herein, in whole or in part, shall be strictly
   prohibited.
-
   MediaTek Inc. (C) 2011-2014. All rights reserved.
-
   BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
   THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
   RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER
@@ -31,15 +28,18 @@
   RELEASED HEREUNDER WILL BE, AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE
   MEDIATEK SOFTWARE AT ISSUE, OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE
   CHARGE PAID BY RECEIVER TO MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
-
   The following software/firmware and/or related documentation ("MediaTek
   Software") have been modified by MediaTek Inc. All revisions are subject to
   any receiver's applicable license agreements with MediaTek Inc.
 -->
 <resources>
 
-    <style name="AppTheme" parent="@android:style/Theme.Material">
+    <style name="FMRadio.Theme" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/MaterialActionBar</item>
+    </style>
 
+    <style name="MaterialActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_material</item>
     </style>
 
 </resources>
